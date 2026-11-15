@@ -1,7 +1,7 @@
 {
   "agent_name": "GeoShield Dispatch Commander",
   "region_baselines": {
-    "Satara (Koyna Basin)": 3.2,
+    "Satara (Koyna Basin)": 2.1,
     "Mumbai Coastal": 4.5,
     "Kolhapur (Panchganga)": 2.5,
     "Ratnagiri Konkan": 2.0,
@@ -64,8 +64,15 @@
       "peak_risk": 4.5,
       "new_quakes_detected": 0,
       "summary": "### GeoShield Autonomous Hazard Dispatch (GREEN NOMINAL)\n- **Highest Risk Zone**: Mumbai Coastal \u2014 Composite Risk `4.5/100` (48h Rain `0.0 mm`, River `0.95 m\u00b3/s`, Wind `38.2 km/h`).\n- **Seismic Proxim"
+    },
+    {
+      "timestamp_utc": "2026-11-15T16:53:10.994722+00:00",
+      "alert_level": "GREEN NOMINAL",
+      "peak_risk": 4.5,
+      "new_quakes_detected": 0,
+      "summary": "* **Top Zone Telemetry:** Mumbai Coastal leads at composite risk 4.5 (GREEN NOMINAL, 0.0 delta), reporting 0.0 mm/48h rainfall, 38.2 km/h peak gusts, and 0.085 soil moisture; Kolhapur (2.5) and Ratnag"
     }
   ],
-  "total_sweeps": 2,
-  "last_sweep_utc": "2026-11-15T16:46:33.380399+00:00"
+  "total_sweeps": 3,
+  "last_sweep_utc": "2026-11-15T16:53:10.994722+00:00"
 }
