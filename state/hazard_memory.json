@@ -1,12 +1,12 @@
 {
   "agent_name": "GeoShield Dispatch Commander",
   "region_baselines": {
-    "Satara (Koyna Basin)": 1.4,
-    "Mumbai Coastal": 4.5,
-    "Kolhapur (Panchganga)": 2.5,
-    "Ratnagiri Konkan": 2.0,
-    "Pune (Mutha Basin)": 1.7,
-    "Sangli (Krishna Basin)": 1.4
+    "Satara (Koyna Basin)": 0.9,
+    "Mumbai Coastal": 4.8,
+    "Kolhapur (Panchganga)": 2.0,
+    "Ratnagiri Konkan": 2.4,
+    "Pune (Mutha Basin)": 1.4,
+    "Sangli (Krishna Basin)": 1.3
   },
   "seen_quake_ids": [
     "pr71539328",
@@ -49,7 +49,21 @@
     "nn00926979",
     "us7000ty9z",
     "us7000ty9x",
-    "aka2026wqrlbd"
+    "aka2026wqrlbd",
+    "aka2026wraoug",
+    "us7000tyga",
+    "aka2026wqyzpo",
+    "us7000tyg6",
+    "aka2026wqxgxw",
+    "nn00927024",
+    "aka2026wqwoem",
+    "us7000tyg0",
+    "us7000tyfr",
+    "aka2026wqtvhn",
+    "us7000tyfh",
+    "us7000tyfb",
+    "us7000tyeu",
+    "us7000tyes"
   ],
   "dispatch_history": [
     {
@@ -79,8 +93,15 @@
       "peak_risk": 4.5,
       "new_quakes_detected": 1,
       "summary": "**GeoShield Dispatch Briefing**\n\n*   **Top Zone Telemetry:** Mumbai Coastal (Risk: 4.5), Kolhapur (2.5), and Ratnagiri (2.0) all report Green Nominal status. Regional precipitation is negligible, and "
+    },
+    {
+      "timestamp_utc": "2026-11-15T22:30:20.397323+00:00",
+      "alert_level": "GREEN NOMINAL",
+      "peak_risk": 5.3,
+      "new_quakes_detected": 14,
+      "summary": "**GeoShield Dispatch Briefing**\n\n*   **Top Zone Telemetry:** Mumbai Coastal (Risk: 5.3), Ratnagiri (3.2), and Kolhapur (1.2) are currently categorized as GREEN NOMINAL. All metrics remain within stand"
     }
   ],
-  "total_sweeps": 4,
-  "last_sweep_utc": "2026-11-15T17:16:17.785080+00:00"
+  "total_sweeps": 5,
+  "last_sweep_utc": "2026-11-15T22:30:20.397323+00:00"
 }
