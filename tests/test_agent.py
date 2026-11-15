@@ -51,6 +51,8 @@ def test_exposure_critic_scoring_tiers() -> None:
 
 
 def test_commander_sweep_mocked(monkeypatch, tmp_path: Path) -> None:
+    monkeypatch.delenv("GEMINI_API_KEY", raising=False)
+    monkeypatch.delenv("GROQ_API_KEY", raising=False)
     monkeypatch.setattr(
         "agents.subagents.fetch_open_meteo_hydro",
         lambda lat, lon: {"rain_48h_mm": 18.0, "peak_rain_mm_hr": 4.0, "max_wind_gust_kmh": 22.0, "mean_soil_moisture": 0.25, "source": "mock"},
