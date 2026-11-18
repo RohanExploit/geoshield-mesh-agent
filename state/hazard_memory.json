@@ -1,12 +1,12 @@
 {
   "agent_name": "GeoShield Dispatch Commander",
   "region_baselines": {
-    "Satara (Koyna Basin)": 2.0,
-    "Mumbai Coastal": 4.2,
-    "Kolhapur (Panchganga)": 4.3,
-    "Ratnagiri Konkan": 3.2,
-    "Pune (Mutha Basin)": 3.4,
-    "Sangli (Krishna Basin)": 3.2
+    "Satara (Koyna Basin)": 1.9,
+    "Mumbai Coastal": 4.6,
+    "Kolhapur (Panchganga)": 4.4,
+    "Ratnagiri Konkan": 3.3,
+    "Pune (Mutha Basin)": 3.5,
+    "Sangli (Krishna Basin)": 3.3
   },
   "seen_quake_ids": [
     "pr71539328",
@@ -127,7 +127,24 @@
     "us7000tyqi",
     "us7000tyq5",
     "hv75071272",
-    "aka2026wtewol"
+    "aka2026wtewol",
+    "aka2026wuxxhs",
+    "aka2026wutnex",
+    "us7000tyum",
+    "us7000tyu4",
+    "us7000tytz",
+    "us7000tytu",
+    "aka2026wujknt",
+    "us7000tytd",
+    "us7000tyta",
+    "us7000tyt9",
+    "us7000tyt4",
+    "us7000tyt3",
+    "us7000tysx",
+    "us7000tytj",
+    "us7000tyst",
+    "us7000tyss",
+    "us7000tyt1"
   ],
   "dispatch_history": [
     {
@@ -192,8 +209,15 @@
       "peak_risk": 5.3,
       "new_quakes_detected": 28,
       "summary": "**GeoShield Dispatch Briefing**\n\n*   **Telemetry Status:** Kolhapur, Pune, and Sangli basins remain within nominal operational parameters. Risk indices (3.7\u20135.3) are stable with no significant meteoro"
+    },
+    {
+      "timestamp_utc": "2026-11-18T00:34:52.403890+00:00",
+      "alert_level": "GREEN NOMINAL",
+      "peak_risk": 5.3,
+      "new_quakes_detected": 17,
+      "summary": "**GeoShield Dispatch Briefing**\n\n*   **Top Zone Telemetry:** Mumbai Coastal (5.3), Kolhapur (4.7), and Pune (3.8) report nominal baseline risks. All zones remain within standard operating parameters.\n"
     }
   ],
-  "total_sweeps": 9,
-  "last_sweep_utc": "2026-11-17T15:32:01.237643+00:00"
+  "total_sweeps": 10,
+  "last_sweep_utc": "2026-11-18T00:34:52.403890+00:00"
 }
