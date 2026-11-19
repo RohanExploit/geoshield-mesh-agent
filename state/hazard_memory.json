@@ -1,12 +1,12 @@
 {
   "agent_name": "GeoShield Dispatch Commander",
   "region_baselines": {
-    "Satara (Koyna Basin)": 1.4,
-    "Mumbai Coastal": 5.3,
-    "Kolhapur (Panchganga)": 4.2,
-    "Ratnagiri Konkan": 3.4,
-    "Pune (Mutha Basin)": 3.3,
-    "Sangli (Krishna Basin)": 3.1
+    "Satara (Koyna Basin)": 0.9,
+    "Mumbai Coastal": 5.5,
+    "Kolhapur (Panchganga)": 3.9,
+    "Ratnagiri Konkan": 3.3,
+    "Pune (Mutha Basin)": 3.0,
+    "Sangli (Krishna Basin)": 2.8
   },
   "seen_quake_ids": [
     "pr71539328",
@@ -188,7 +188,13 @@
     "us7000tz1c",
     "us7000tz1a",
     "ci41363287",
-    "aka2026wvvyxt"
+    "aka2026wvvyxt",
+    "aka2026wxbuhs",
+    "us6000ubxg",
+    "us6000ubxb",
+    "us6000ubxa",
+    "pr71539518",
+    "us6000ubwa"
   ],
   "dispatch_history": [
     {
@@ -274,8 +280,15 @@
       "peak_risk": 6.5,
       "new_quakes_detected": 16,
       "summary": "**GeoShield Dispatch Briefing**\n\n*   **Top Zone Telemetry:** Mumbai Coastal (Risk 6.5), Kolhapur (3.6), and Ratnagiri Konkan (3.6) currently report nominal telemetry values. All rainfall and discharge"
+    },
+    {
+      "timestamp_utc": "2026-11-19T05:59:58.853526+00:00",
+      "alert_level": "GREEN NOMINAL",
+      "peak_risk": 5.9,
+      "new_quakes_detected": 6,
+      "summary": "**GeoShield Dispatch Briefing**\n\n* **Top Zone Telemetry:** All regions (Mumbai Coastal, Kolhapur, Ratnagiri) report nominal status. Mumbai shows a minor risk delta (+0.6), while Kolhapur and Ratnagiri"
     }
   ],
-  "total_sweeps": 12,
-  "last_sweep_utc": "2026-11-18T23:54:41.802495+00:00"
+  "total_sweeps": 13,
+  "last_sweep_utc": "2026-11-19T05:59:58.853526+00:00"
 }
