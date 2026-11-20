@@ -1,24 +1,14 @@
 {
   "agent_name": "GeoShield Dispatch Commander",
   "region_baselines": {
-    "Satara (Koyna Basin)": 2.3,
-    "Mumbai Coastal": 5.2,
-    "Kolhapur (Panchganga)": 4.4,
+    "Satara (Koyna Basin)": 1.5,
+    "Mumbai Coastal": 4.6,
+    "Kolhapur (Panchganga)": 3.5,
     "Ratnagiri Konkan": 3.9,
-    "Pune (Mutha Basin)": 3.8,
-    "Sangli (Krishna Basin)": 3.5
+    "Pune (Mutha Basin)": 2.9,
+    "Sangli (Krishna Basin)": 2.4
   },
   "seen_quake_ids": [
-    "aka2026wqjupw",
-    "nn00927002",
-    "aka2026wqirnq",
-    "ok2026wjws",
-    "us7000tye3",
-    "us7000tydm",
-    "aka2026wqbozu",
-    "us7000tyde",
-    "us7000tydd",
-    "aka2026wpzmaj",
     "us7000tyd3",
     "pr2026319000",
     "aka2026wputwc",
@@ -208,7 +198,17 @@
     "ci41363599",
     "ci41363583",
     "us6000uby4",
-    "uu80165416"
+    "uu80165416",
+    "aka2026wymdwx",
+    "ci41363879",
+    "aka2026wyhwhm",
+    "us6000uc2q",
+    "us6000uc2t",
+    "us6000uc26",
+    "pr71539568",
+    "pr71539558",
+    "us6000uc1x",
+    "us6000uc0h"
   ],
   "dispatch_history": [
     {
@@ -308,8 +308,15 @@
       "peak_risk": 5.2,
       "new_quakes_detected": 20,
       "summary": "**GeoShield Dispatch Briefing**\n\n*   **Top Zone Telemetry:** Kolhapur, Pune, and Ratnagiri report moderate precipitation (12.4mm/48h) and sustained soil moisture (0.28). All regions maintain GREEN NOM"
+    },
+    {
+      "timestamp_utc": "2026-11-20T00:20:19.018229+00:00",
+      "alert_level": "GREEN NOMINAL",
+      "peak_risk": 3.8,
+      "new_quakes_detected": 10,
+      "summary": "**GeoShield Dispatch Briefing**\n\n*   **Top Zone Telemetry:** All regions (Ratnagiri, Mumbai Coastal, Kolhapur) report baseline stability. Risk deltas are negative, with composite risk scores ranging f"
     }
   ],
-  "total_sweeps": 14,
-  "last_sweep_utc": "2026-11-19T15:39:01.181065+00:00"
+  "total_sweeps": 15,
+  "last_sweep_utc": "2026-11-20T00:20:19.018229+00:00"
 }
