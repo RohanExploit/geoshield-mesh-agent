@@ -1,32 +1,14 @@
 {
   "agent_name": "GeoShield Dispatch Commander",
   "region_baselines": {
-    "Satara (Koyna Basin)": 0.9,
-    "Mumbai Coastal": 3.8,
-    "Kolhapur (Panchganga)": 2.6,
-    "Ratnagiri Konkan": 4.0,
-    "Pune (Mutha Basin)": 2.2,
-    "Sangli (Krishna Basin)": 1.2
+    "Satara (Koyna Basin)": 0.6,
+    "Mumbai Coastal": 3.1,
+    "Kolhapur (Panchganga)": 2.2,
+    "Ratnagiri Konkan": 3.5,
+    "Pune (Mutha Basin)": 1.9,
+    "Sangli (Krishna Basin)": 0.8
   },
   "seen_quake_ids": [
-    "aka2026wrzrqn",
-    "us7000tyil",
-    "us7000tyii",
-    "us7000tyie",
-    "aka2026wrsbwy",
-    "aka2026wrpnvt",
-    "aka2026wrlepm",
-    "aka2026wszejn",
-    "us7000tyns",
-    "nc75467222",
-    "us7000tymu",
-    "us7000tymc",
-    "us7000tym8",
-    "aka2026wsrgct",
-    "us7000tyma",
-    "us7000tykx",
-    "aka2026wslxjs",
-    "us7000tykk",
     "us7000tykh",
     "us7000tykc",
     "us7000tyk2",
@@ -208,7 +190,25 @@
     "us6000ucax",
     "aka2026wztmfr",
     "nc75469167",
-    "aka2026wzewmb"
+    "aka2026wzewmb",
+    "nc75469622",
+    "aka2026xawcri",
+    "us6000uchd",
+    "aka2026xaubpp",
+    "aka2026xaqfrm",
+    "us6000ucgj",
+    "us6000ucga",
+    "us6000ucg8",
+    "nc75469462",
+    "us6000ucg3",
+    "hv75073882",
+    "ci41364303",
+    "us6000ucfm",
+    "aka2026xalikz",
+    "us6000ucfa",
+    "us6000ucey",
+    "aka2026wzreib",
+    "aka2026wzlcvl"
   ],
   "dispatch_history": [
     {
@@ -329,8 +329,15 @@
       "peak_risk": 3.0,
       "new_quakes_detected": 11,
       "summary": "* **Top Zone Telemetry:** Ratnagiri Konkan, Mumbai Coastal, and Kolhapur report nominal status. All composite risk scores are currently trending downward with minimal moisture and wind impact.\n* **Sei"
+    },
+    {
+      "timestamp_utc": "2026-11-21T05:44:31.658381+00:00",
+      "alert_level": "GREEN NOMINAL",
+      "peak_risk": 2.6,
+      "new_quakes_detected": 18,
+      "summary": "**GeoShield Emergency Briefing**\n\n*   **Top Zone Telemetry:** All regions (Ratnagiri, Mumbai, Kolhapur) report GREEN NOMINAL status. Soil moisture levels are stable, and rainfall indices remain at zer"
     }
   ],
-  "total_sweeps": 17,
-  "last_sweep_utc": "2026-11-20T23:42:37.430828+00:00"
+  "total_sweeps": 18,
+  "last_sweep_utc": "2026-11-21T05:44:31.658381+00:00"
 }
