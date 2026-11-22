@@ -1,27 +1,14 @@
 {
   "agent_name": "GeoShield Dispatch Commander",
   "region_baselines": {
-    "Satara (Koyna Basin)": 1.4,
-    "Mumbai Coastal": 3.0,
-    "Kolhapur (Panchganga)": 2.3,
-    "Ratnagiri Konkan": 3.5,
+    "Satara (Koyna Basin)": 1.2,
+    "Mumbai Coastal": 2.8,
+    "Kolhapur (Panchganga)": 2.2,
+    "Ratnagiri Konkan": 3.1,
     "Pune (Mutha Basin)": 2.5,
-    "Sangli (Krishna Basin)": 1.3
+    "Sangli (Krishna Basin)": 1.2
   },
   "seen_quake_ids": [
-    "us7000tyum",
-    "us7000tyu4",
-    "us7000tytz",
-    "us7000tytu",
-    "aka2026wujknt",
-    "us7000tytd",
-    "us7000tyta",
-    "us7000tyt9",
-    "us7000tyt4",
-    "us7000tyt3",
-    "us7000tysx",
-    "us7000tytj",
-    "us7000tyst",
     "us7000tyss",
     "us7000tyt1",
     "nn00927112",
@@ -208,7 +195,20 @@
     "us6000ucpi",
     "us6000ucnl",
     "aka2026xbypfs",
-    "aka2026xbrrnr"
+    "aka2026xbrrnr",
+    "pr71539733",
+    "us6000ucs1",
+    "aka2026xczstl",
+    "us6000ucrp",
+    "us6000ucrb",
+    "aka2026xcvvkr",
+    "us6000ucr4",
+    "us6000ucr3",
+    "us6000ucqu",
+    "us6000ucqt",
+    "aka2026xcrtkj",
+    "us6000ucqn",
+    "aka2026xcoxth"
   ],
   "dispatch_history": [
     {
@@ -357,8 +357,15 @@
       "peak_risk": 3.2,
       "new_quakes_detected": 8,
       "summary": "**GeoShield Dispatch Briefing**\n\n*   **Top Zone Telemetry:** Ratnagiri, Mumbai, and Pune report stable conditions with negligible precipitation and low soil moisture levels. Composite risk indices are"
+    },
+    {
+      "timestamp_utc": "2026-11-22T14:07:19.309892+00:00",
+      "alert_level": "GREEN NOMINAL",
+      "peak_risk": 2.6,
+      "new_quakes_detected": 13,
+      "summary": "**GeoShield Emergency Briefing**\n\n*   **Top Zone Telemetry:** Pune (Mutha Basin), Ratnagiri Konkan, and Mumbai Coastal report stable conditions with minimal discharge and low soil saturation.\n*   **Se"
     }
   ],
-  "total_sweeps": 21,
-  "last_sweep_utc": "2026-11-22T05:14:15.198081+00:00"
+  "total_sweeps": 22,
+  "last_sweep_utc": "2026-11-22T14:07:19.309892+00:00"
 }
