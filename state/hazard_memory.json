@@ -1,27 +1,14 @@
 {
   "agent_name": "GeoShield Dispatch Commander",
   "region_baselines": {
-    "Satara (Koyna Basin)": 0.8,
-    "Mumbai Coastal": 2.8,
-    "Kolhapur (Panchganga)": 2.4,
-    "Ratnagiri Konkan": 2.8,
-    "Pune (Mutha Basin)": 2.5,
-    "Sangli (Krishna Basin)": 1.5
+    "Satara (Koyna Basin)": 2.2,
+    "Mumbai Coastal": 3.5,
+    "Kolhapur (Panchganga)": 3.4,
+    "Ratnagiri Konkan": 3.6,
+    "Pune (Mutha Basin)": 3.4,
+    "Sangli (Krishna Basin)": 2.6
   },
   "seen_quake_ids": [
-    "us7000tyxi",
-    "us7000tyxc",
-    "us7000tyx2",
-    "aka2026wvejbp",
-    "us7000tywx",
-    "us7000tywr",
-    "pr2026322000",
-    "us7000tywi",
-    "aka2026wuzcyb",
-    "us7000tyw8",
-    "us7000tyw6",
-    "us7000tyvt",
-    "aka2026wuqntk",
     "aka2026wupwhh",
     "ci41363495",
     "us6000ubw3",
@@ -208,7 +195,20 @@
     "tx2026wzuvop",
     "aka2026xdlzci",
     "us6000uct0",
-    "nm60629086"
+    "nm60629086",
+    "ci41365223",
+    "us6000ucwd",
+    "aka2026xekfce",
+    "us6000ucw1",
+    "us6000ucvm",
+    "nc75470917",
+    "us6000ucvh",
+    "aka2026xedqst",
+    "us6000ucv4",
+    "us6000ucv2",
+    "us6000ucv1",
+    "nc75470822",
+    "aka2026xebyhe"
   ],
   "dispatch_history": [
     {
@@ -371,8 +371,15 @@
       "peak_risk": 2.8,
       "new_quakes_detected": 16,
       "summary": "**GeoShield Dispatch Briefing**\n\n*   **Top Zone Telemetry:** Kolhapur, Mumbai Coastal, and Pune are currently stable. All indicators (precipitation, wind, and discharge) remain within nominal operatin"
+    },
+    {
+      "timestamp_utc": "2026-11-23T05:53:40.052003+00:00",
+      "alert_level": "GREEN NOMINAL",
+      "peak_risk": 5.2,
+      "new_quakes_detected": 13,
+      "summary": "**GeoShield Dispatch Briefing**\n\n*   **Top Zone Telemetry:** Kolhapur, Pune, and Ratnagiri currently report stable metrics. Composite risk scores range from 5.0 to 5.2, all within Green Nominal parame"
     }
   ],
-  "total_sweeps": 23,
-  "last_sweep_utc": "2026-11-22T23:16:56.772447+00:00"
+  "total_sweeps": 24,
+  "last_sweep_utc": "2026-11-23T05:53:40.052003+00:00"
 }
