@@ -1,38 +1,14 @@
 {
   "agent_name": "GeoShield Dispatch Commander",
   "region_baselines": {
-    "Satara (Koyna Basin)": 2.3,
-    "Mumbai Coastal": 3.7,
-    "Kolhapur (Panchganga)": 4.3,
-    "Ratnagiri Konkan": 4.3,
-    "Pune (Mutha Basin)": 3.8,
-    "Sangli (Krishna Basin)": 3.4
+    "Satara (Koyna Basin)": 1.5,
+    "Mumbai Coastal": 3.4,
+    "Kolhapur (Panchganga)": 4.4,
+    "Ratnagiri Konkan": 3.8,
+    "Pune (Mutha Basin)": 3.3,
+    "Sangli (Krishna Basin)": 3.3
   },
   "seen_quake_ids": [
-    "nc75468862",
-    "nc75468852",
-    "nc75468807",
-    "nc75468797",
-    "nc75468787",
-    "nc75468742",
-    "nc75468732",
-    "ci41364023",
-    "nc75468707",
-    "nc75468702",
-    "aka2026wzbmul",
-    "nc75468687",
-    "nc75468662",
-    "pr71539613",
-    "us6000uc6c",
-    "aka2026wyyiax",
-    "us6000uc5s",
-    "us6000uc4z",
-    "us6000uc4v",
-    "us6000ucf0",
-    "us6000uce0",
-    "aka2026xabinn",
-    "us6000ucdj",
-    "aka2026xaapef",
     "us6000ucd6",
     "pr71539618",
     "us6000ucax",
@@ -208,7 +184,31 @@
     "aka2026xgicod",
     "pr71539853",
     "pr71539848",
-    "aka2026xggtot"
+    "aka2026xggtot",
+    "us6000udd1",
+    "us6000udcy",
+    "hv75076132",
+    "us6000udck",
+    "aka2026xhtdas",
+    "aka2026xhqkeq",
+    "aka2026xhqjlg",
+    "aka2026xhpzak",
+    "us6000udbn",
+    "tx2026xdvvyp",
+    "aka2026xhounu",
+    "pr71539908",
+    "us6000udb8",
+    "aka2026xhmdpp",
+    "aka2026xhlzkg",
+    "us6000udau",
+    "aka2026xhkdci",
+    "aka2026xhjlso",
+    "aka2026xhiowe",
+    "aka2026xhhuwq",
+    "us6000ud9h",
+    "us6000ud82",
+    "us6000udb4",
+    "us6000udb1"
   ],
   "dispatch_history": [
     {
@@ -399,8 +399,15 @@
       "peak_risk": 5.0,
       "new_quakes_detected": 25,
       "summary": "**Top Zone Telemetry**\nRatnagiri Konkan leads with 12.4mm 48h rainfall and 5.17 m\u00b3/s discharge. Kolhapur (Panchganga) shows 8.31 m\u00b3/s flow with 36.7 km/h gusts. Pune (Mutha Basin) remains dry (0.0mm) "
+    },
+    {
+      "timestamp_utc": "2026-11-25T01:56:24.694437+00:00",
+      "alert_level": "GREEN NOMINAL",
+      "peak_risk": 4.7,
+      "new_quakes_detected": 24,
+      "summary": "**GeoShield Dispatch Briefing**\n\n*   **Top Zone Telemetry:** Kolhapur (Panchganga) leads at a composite risk of 4.7, followed by Sangli (3.0) and Mumbai Coastal (2.9). All regions are currently within"
     }
   ],
-  "total_sweeps": 27,
-  "last_sweep_utc": "2026-11-24T17:06:10.143609+00:00"
+  "total_sweeps": 28,
+  "last_sweep_utc": "2026-11-25T01:56:24.694437+00:00"
 }
