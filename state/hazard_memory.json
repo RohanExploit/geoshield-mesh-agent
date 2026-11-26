@@ -1,39 +1,14 @@
 {
   "agent_name": "GeoShield Dispatch Commander",
   "region_baselines": {
-    "Satara (Koyna Basin)": 0.7,
-    "Mumbai Coastal": 3.0,
-    "Kolhapur (Panchganga)": 3.0,
+    "Satara (Koyna Basin)": 0.5,
+    "Mumbai Coastal": 2.9,
+    "Kolhapur (Panchganga)": 2.3,
     "Ratnagiri Konkan": 2.9,
-    "Pune (Mutha Basin)": 2.7,
-    "Sangli (Krishna Basin)": 2.0
+    "Pune (Mutha Basin)": 2.6,
+    "Sangli (Krishna Basin)": 1.5
   },
   "seen_quake_ids": [
-    "nc75469982",
-    "us6000ucni",
-    "us6000ucn9",
-    "us6000ucn8",
-    "us6000ucn2",
-    "aka2026xbsutp",
-    "us6000ucmv",
-    "us6000ucmt",
-    "hv75074192",
-    "hv75074197",
-    "pr2026325000",
-    "aka2026xcqggs",
-    "hv75074437",
-    "aka2026xchufl",
-    "us6000ucpj",
-    "us6000ucpi",
-    "us6000ucnl",
-    "aka2026xbypfs",
-    "aka2026xbrrnr",
-    "pr71539733",
-    "us6000ucs1",
-    "aka2026xczstl",
-    "us6000ucrp",
-    "us6000ucrb",
-    "aka2026xcvvkr",
     "us6000ucr4",
     "us6000ucr3",
     "us6000ucqu",
@@ -208,16 +183,34 @@
     "us6000udhb",
     "aka2026xjdwrw",
     "pr71539988",
-    "aka2026xiouwf"
+    "aka2026xiouwf",
+    "us6000udq5",
+    "pr71540088",
+    "us6000udnj",
+    "aka2026xkuaks",
+    "us6000udmu",
+    "ci41580488",
+    "aka2026xkkapt",
+    "us6000udmc",
+    "us6000udm8",
+    "us6000udm5",
+    "tx2026xgpmsr",
+    "ci41580416",
+    "ci41580392",
+    "us6000udla",
+    "us6000udlu",
+    "nc75469411",
+    "us6000udki",
+    "aka2026xjxyti",
+    "aka2026xjwupu",
+    "us6000udk5",
+    "pr71540058",
+    "us6000udjz",
+    "us6000udjx",
+    "us6000udjw",
+    "pr71540048"
   ],
   "dispatch_history": [
-    {
-      "timestamp_utc": "2026-11-15T16:44:53.127561+00:00",
-      "alert_level": "GREEN NOMINAL",
-      "peak_risk": 4.8,
-      "new_quakes_detected": 40,
-      "summary": "### GeoShield Autonomous Hazard Dispatch (GREEN NOMINAL)\n- **Highest Risk Zone**: Satara (Koyna Basin) \u2014 Composite Risk `4.8/100` (48h Rain `12.4 mm`, River `2.06 m\u00b3/s`, Wind `24.0 km/h`).\n- **Seismic"
-    },
     {
       "timestamp_utc": "2026-11-15T16:46:33.380399+00:00",
       "alert_level": "GREEN NOMINAL",
@@ -420,8 +413,15 @@
       "peak_risk": 3.1,
       "new_quakes_detected": 15,
       "summary": "*   **Top Zone Telemetry:** Mumbai, Pune, and Ratnagiri report stable conditions with negligible precipitation (0.0\u20130.1mm) and low soil moisture levels across all sectors.\n*   **Seismic/Flood Interact"
+    },
+    {
+      "timestamp_utc": "2026-11-26T16:26:58.011348+00:00",
+      "alert_level": "GREEN NOMINAL",
+      "peak_risk": 2.8,
+      "new_quakes_detected": 25,
+      "summary": "**GeoShield Dispatch Briefing**\n\n*   **Top Zone Telemetry:** Mumbai, Ratnagiri, and Pune are currently stable. Risk deltas are negative across all sectors, indicating a downward trend in composite env"
     }
   ],
-  "total_sweeps": 30,
-  "last_sweep_utc": "2026-11-26T01:36:23.501682+00:00"
+  "total_sweeps": 31,
+  "last_sweep_utc": "2026-11-26T16:26:58.011348+00:00"
 }
