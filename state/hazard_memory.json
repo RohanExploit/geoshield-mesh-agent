@@ -1,31 +1,14 @@
 {
   "agent_name": "GeoShield Dispatch Commander",
   "region_baselines": {
-    "Satara (Koyna Basin)": 1.4,
-    "Mumbai Coastal": 3.3,
-    "Kolhapur (Panchganga)": 3.0,
-    "Ratnagiri Konkan": 3.0,
-    "Pune (Mutha Basin)": 2.9,
-    "Sangli (Krishna Basin)": 2.5
+    "Satara (Koyna Basin)": 1.3,
+    "Mumbai Coastal": 3.0,
+    "Kolhapur (Panchganga)": 3.3,
+    "Ratnagiri Konkan": 2.6,
+    "Pune (Mutha Basin)": 2.5,
+    "Sangli (Krishna Basin)": 2.8
   },
   "seen_quake_ids": [
-    "us6000ucvh",
-    "aka2026xedqst",
-    "us6000ucv4",
-    "us6000ucv2",
-    "us6000ucv1",
-    "nc75470822",
-    "aka2026xebyhe",
-    "us6000ucz8",
-    "us6000ucz2",
-    "aka2026xfcnfy",
-    "us6000ucyl",
-    "ci41365335",
-    "aka2026xfauve",
-    "mb90213598",
-    "us6000ucyd",
-    "us6000ucy7",
-    "us6000ucy6",
     "nc75471082",
     "us6000ucxy",
     "aka2026xewacy",
@@ -208,16 +191,26 @@
     "us6000udu6",
     "us6000udtu",
     "aka2026xlmznw",
-    "tx2026xhqmyr"
+    "tx2026xhqmyr",
+    "us6000ue12",
+    "pr71540248",
+    "tx2026xjpkqg",
+    "aka2026xnjflg",
+    "nc75470306",
+    "nc75470301",
+    "aka2026xnhclh",
+    "nn00927525",
+    "us6000ue09",
+    "us6000ue0a",
+    "aka2026xndbvp",
+    "pr2026331001",
+    "aka2026xmyzzg",
+    "aka2026xmwxqt",
+    "hv75077177",
+    "hv75077137",
+    "us6000udwp"
   ],
   "dispatch_history": [
-    {
-      "timestamp_utc": "2026-11-15T17:16:17.785080+00:00",
-      "alert_level": "GREEN NOMINAL",
-      "peak_risk": 4.5,
-      "new_quakes_detected": 1,
-      "summary": "**GeoShield Dispatch Briefing**\n\n*   **Top Zone Telemetry:** Mumbai Coastal (Risk: 4.5), Kolhapur (2.5), and Ratnagiri (2.0) all report Green Nominal status. Regional precipitation is negligible, and "
-    },
     {
       "timestamp_utc": "2026-11-15T22:30:20.397323+00:00",
       "alert_level": "GREEN NOMINAL",
@@ -420,8 +413,15 @@
       "peak_risk": 3.0,
       "new_quakes_detected": 14,
       "summary": "**GeoShield Emergency Readiness Briefing**\n\n*   **Top Zone Telemetry:** Mumbai, Kolhapur, and Sangli report stable conditions. All telemetry data confirms minimal precipitation and low discharge rates"
+    },
+    {
+      "timestamp_utc": "2026-11-28T01:08:05.686132+00:00",
+      "alert_level": "GREEN NOMINAL",
+      "peak_risk": 3.9,
+      "new_quakes_detected": 17,
+      "summary": "**GeoShield Dispatch Briefing**\n\n*   **Top Zone Telemetry:** Kolhapur, Sangli, and Mumbai are currently at Green Nominal status. Rainfall, discharge rates, and wind speeds remain well within safety th"
     }
   ],
-  "total_sweeps": 33,
-  "last_sweep_utc": "2026-11-27T16:13:24.227253+00:00"
+  "total_sweeps": 34,
+  "last_sweep_utc": "2026-11-28T01:08:05.686132+00:00"
 }
